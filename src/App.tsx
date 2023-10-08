@@ -1,7 +1,12 @@
+import React from "react";
+import { createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
 
+
+// pages
+import { Home, Products, ProductDetail, Search } from "./pages";
 function App() {
   return (
-      <div className="text-3xl font-bold underline">Hello</div>
+      <div className="app">Hello</div>
   )
 }
 
